@@ -1,0 +1,21 @@
+{
+    "name": "doing/wylive",
+    "description": "网易直播服务器的SDK(PHP)",
+    "keywords": ["live", "直播","网易","网易直播"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Doing",
+            "email": "vip.dulin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files":[
+            "src/WyConfig.php"
+        ],
+        "psr-4": {
+            "WyLive\\": "src/lib"
+        }
+    },
+    "require": {}
+}
