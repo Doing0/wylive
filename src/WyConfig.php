@@ -8,8 +8,8 @@
  */
 //TODO: 修改这里配置信息;
 //AppKey
-const WY_APPKEY = '0c6a93c3d7ed11178623f51df299dd6c';
+const WY_APPKEY = '0a6a3333d7ed11178623f51df299dd6c';
 //AppScecret
-const WY_APPSCECRET = '554f469e2cf7';
+const WY_APPSCECRET = '554f469ercr7';
 //RequestType
 const WY_REQUESTTYPE = 'curl';
