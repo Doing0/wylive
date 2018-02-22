@@ -4,7 +4,7 @@
 ```
 //创建直播间
 print_r(\WyLive\WyLiveApi::instance()->channelCreate('test_channel',1));
-//页可以先在类文件顶部use后调用
+//也可以先在类文件顶部use后调用
 use WyLive\WyLiveApi;
 print_r(WyLiveApi::instance()->channelCreate('test_channel',1));
 ```
