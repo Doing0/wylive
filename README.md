@@ -1,6 +1,7 @@
-# 步骤一 配置相关信息
+# 使用说明
+## 步骤一 配置相关信息
 在WyConfig.php里面配置WY_APPKEY和WY_APPSCECRET。WY_REQUESTTYPE不修改
-# 步骤二 调用接口 `详情接口说明请参考demoServerAPI.php`
+## 步骤二 调用接口 `详情接口说明请参考demoServerAPI.php`
 ```
 //创建直播间
 print_r(\WyLive\WyLiveApi::instance()->channelCreate('test_channel',1));
